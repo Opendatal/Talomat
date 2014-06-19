@@ -1,0 +1,49 @@
+
+body {
+	background-color:#000030;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:10pt; 
+	color:#F0F0F0; }
+
+h1 { font-size:130%;}
+h2 { font-size:120%;}
+h3 { font-size:110%;}
+
+a { color:#FFFFFF; text-decoration:underline;}
+a:link { color:#FFFFFF; } 
+a:visited { color:#C0C0C0; }
+a:active { color:#FF0000; }
+a:hover { color:#FF0000; text-decoration:none; } 
+
+table { font-size:100%; }
+
+td { 
+	border: 1px solid #C0C0C0; 
+	padding: 2px;
+	-moz-border-radius: 2px; 
+	-khtml-border-radius: 2px;
+	border-radius: 2px;	}
+
+#middle {
+	background-color:#000040;
+	width:600px; 
+	height:85%;
+	text-align:left; 
+	margin:auto auto; 
+	margin-left:5%;
+	padding:10px;
+	-moz-border-radius: 15px; 
+	-khtml-border-radius: 15px;
+	border-radius: 15px;
+	border: 2px solid #808080; 
+	overflow:auto; }
+
+#headingContent { font-size:110%; font-weight:bold }
+#content {min-height:25%; }
+
+#voting { margin-top:10px; }
+#votingPro, #votingNeutral, #votingContra, #votingSkip { cursor:pointer; }
+
+#keepStats { margin-top:10px; }
+
+#extras { margin-left:5%; }

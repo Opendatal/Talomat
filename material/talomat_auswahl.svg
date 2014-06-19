@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="talomat_x5F_auswahl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="255.118px" height="255.118px" viewBox="0 0 255.118 255.118" enable-background="new 0 0 255.118 255.118"
+	 xml:space="preserve">
+<g id="richtig">
+	<rect y="0.059" fill="#46A64B" width="123" height="123"/>
+	<polygon fill="#FFFFFF" points="91.438,25.051 48.083,68.407 33.63,53.955 19.179,68.407 33.63,82.859 33.63,82.859 48.083,97.312 
+		62.535,82.859 105.891,39.503 	"/>
+</g>
+<g id="falsch">
+	<rect y="132.059" fill="#C2272E" width="123" height="123"/>
+	<polygon fill="#FFFFFF" points="97.43,171.866 82.977,157.414 61.299,179.091 39.622,157.414 25.169,171.866 46.847,193.544 
+		25.169,215.221 39.622,229.673 61.299,207.996 82.977,229.674 97.43,215.221 75.752,193.543 	"/>
+</g>
+<g id="weiter">
+	<rect x="132" y="132.059" fill="#CDCDCD" width="123" height="123"/>
+	<polygon fill="#FFFFFF" points="164.755,157.859 150.303,172.088 171.98,193.656 150.303,215.278 164.755,229.702 200.885,193.669 
+			"/>
+	<polygon fill="#FFFFFF" points="205.317,157.859 190.865,172.088 212.542,193.656 190.865,215.278 205.317,229.702 
+		241.448,193.669 	"/>
+</g>
+<g id="egal">
+	<rect x="132" y="0.059" fill="#F8AF3D" width="123" height="123"/>
+	<path fill="#FFFFFF" d="M193.646,17.672c-24.135,0-43.702,19.566-43.702,43.702s19.566,43.702,43.702,43.702
+		s43.701-19.567,43.701-43.702S217.781,17.672,193.646,17.672z M193.646,86.536c-13.896,0-25.161-11.266-25.161-25.162
+		s11.265-25.161,25.161-25.161c13.896,0,25.161,11.265,25.161,25.161S207.541,86.536,193.646,86.536z"/>
+</g>
+</svg>

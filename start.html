@@ -1,0 +1,198 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<meta name="author" content="Opendatal"/>
+<meta name="description" content="Mat-O-Wahl" />
+<meta name="keywords" content="Mat-O-Wahl, MatOWahl, Demokratie, Wahlen, elections, vote, Wahlbeteiligung, Fragebogen, Antworten, Positionen, Entscheidung, Hilfe, Politik, B&uuml;rgermeister, Stadtrat, Fachschaftsrat, Studentenrat, StuRa, Studentenparlament, Studierendenparlament, StuPa, AStA, Kreisrat, Landrat, Volksabstimmung, Plebiszit, Klon, clone, Alternative, GPL, JavaScript, Freeware, kostenlos"/>
+<meta name="robots" content="index, follow" />
+<meta name="language" content="de" />
+<meta name="Content-Language" content="de" />
+
+        <meta property="og:site_name" content="Talomat!" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:description" content="Der Talomat ist eine Wuppertaler Wahl-O-Mat zur Kommunalwahl 2014, nach dem Vorbild der von Bundes- und Landeszentrale für politische Bildung eingesetzter Wahl-o-Maten. Wen wählst Du?">
+        <meta property="og:description" content="Der Talomat ist eine Wuppertaler Wahl-O-Mat zur Kommunalwahl 2014, nach dem Vorbild der von Bundes- und Landeszentrale für politische Bildung eingesetzter Wahl-o-Maten. Wen wählst Du?" />
+
+        <meta property="og:url" content="http://talomat.de/" />
+
+        <meta property="og:image" content="http://talomat.de/og_talomat.jpg" />      
+        <meta name="twitter:image:src" content="http://talomat.de/og_talomat.jpg" />     
+
+        <meta name="twitter:site" content="@opendatal" />
+        <meta name="twitter:creator" content="@opendatal" />      
+        <meta name="twitter:domain" content="talomat.de">
+
+       <meta name="twitter:title" content="Talomat - Ein Mat-O-Wahl zur Kommunalwahl in Wuppertal 2014 ">
+        <meta property="og:title" content="Talomat - Ein Mat-O-Wahl zur Kommunalwahl in Wuppertal 2014" />
+        
+<title>Talomat - Ein Mat-O-Wahl zur Kommunalwahl in Wuppertal 2014</title>
+<script type="text/javascript" src="system/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="data/definition.js"></script>
+<script type="text/javascript" src="system/general.js"></script>
+<script type="text/javascript" src="system/output.js"></script>
+
+<!-- link rel="stylesheet" type="text/css" href="styles/default.css" / -->
+
+<script type="text/javascript">
+//<![CDATA[
+document.writeln("<link rel='stylesheet' type='text/css' href='styles/"+design+".css' />");
+//]]>
+</script>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=162935377104606";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="middle">
+
+	<noscript style="color:#ff0000; font-weight:900">
+	<p>ACHTUNG!</p>
+	<p>Sie haben JavaScript deaktiviert. Ohne diese Technik, funktioniert das System nicht. Bitte aktivieren Sie JavaScript in Ihrem Browser.</p>
+	<p>
+	Internet Explorer: Gelbe Warnleiste oben anklicken und "Geblockte Inhalte" bzw. "Aktive Inhalte" zulassen.
+	<br /> Mozilla Firefox: Men&uuml;leiste &gt; Extras &gt; Einstellungen &gt; Inhalt &gt; JavaScript aktivieren
+	</p>
+	<p>F&uuml;r generelle Informationen zu diesem Programm besuchen Sie bitte: <a href="http://www.mat-o-wahl.de">www.mat-o-wahl.de</a></p>
+	<p>Diese Meldung verschwindet, wenn JavaScript aktiv ist.</p>
+	</noscript>
+
+	<div id="heading">
+		<h1>&Uuml;berschrift zur Wahl/Thema der Wahl</h1>
+		<h2>Unter&uuml;berschrift</h2> 
+	</div>
+	
+	<div id="explanation">
+		<p>Kurze Beschreibung der Wahl, wer wird gew&auml;hlt, wann, warum, f&uuml;r wie lange, usw.</p>
+	</div>
+
+	<div id="headingContent">
+		<h3>Z&auml;hler f&uuml;r Fragen und Kurzbeschreibung der Frage</h3>
+	</div>
+	
+	<div id="content">
+		<p>			
+			Liste mit Fragen zu den verschiedenen Positionen der Parteien bzw. Kandidaten.
+		</p>
+	</div>
+
+	<div id="headingResults">
+		<h3>&Uuml;berschrift f&uuml;r die Ergebnisse/Resultate</h3>
+	</div>
+	
+	<div id="results">
+		<p>Ergebnisse, Resultate in tabellarischer Form</p>
+	</div>
+	
+
+	<div id="voting" style="display:none;">
+		<table border='0' width="100%">
+			<tr>
+				<td style="text-align:center;" id="votingPro" title="Pro [+]">
+					<img src="img/pro.png" width="115" height="115" alt="Pro [+]" />
+				</td>
+				<td style="text-align:center" id="votingNeutral" title="Neutral [0]">
+					<img src="img/neutral.png" width="115" height="115" alt="Neutral [0]" />
+				</td>
+				<td style="text-align:center" id="votingContra" title="Contra [-]">
+					<img src="img/contra.png" width="115" height="115" alt="Contra [-]" />
+				</td>
+				<td style="text-align:center" id="votingSkip" title="Skip [x]">
+					<img src="img/skip.png" width="115" height="115" alt="Skip [x]" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td style="text-align:center">
+					Stimme daf&uuml;r
+				</td>
+				<td style="text-align:center">
+					Egal/Wei&szlig; nicht
+				</td>
+				<td style="text-align:center">
+					Stimme dagegen
+				</td>
+				<td style="text-align:center">
+					&Uuml;berspringen
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<br />
+	<div id="jumpToQuestion" style="display:none;">
+		Gehe direkt zu Frage Nummer XY.
+	</div>				
+    
+    <div class="social">
+        <h4>Fehlende Parteien</h4>
+        <p style="margin-bottom:15px;">Die CDU hat sich bewusst dem Projekt verweigert, da sie sich nicht in der Lage sieht, eine allgemein gültige Antwort für ihre Fraktion zu geben. Eine druckbare Stellungnahme liegt uns leider nicht vor. </p>      
+        <h4>Wenn Sie den Talomaten hilfreich fanden, teilen Sie es gern mit! <br /> Wir würden uns freuen!</h4>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.talomat.de" data-text="Ich habe mich mit'm Talomaten über die Kommunalwahl in #Wuppertal informiert. Wen wählst Du? #talomat" data-via="opendatal" data-lang="de">Twittern</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+    <div class="fb-share-button" data-href="http://www.talomat.de" data-type="button_count"></div>
+    
+    <!-- Fügen Sie dieses Tag an der Stelle ein, an der die +1-Schaltfläche erscheinen soll. -->
+<div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://www.talomat.de"></div>
+
+<!-- Fügen Sie dieses Tag nach dem letzten +1-Schaltfläche-Tag ein. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'de'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+    </div>
+    
+	<div id="keepStats" style="display:none;">
+		<table border='0' width="100%">
+			<tr>
+				<td valign="top">
+					<input type="checkbox" id="keepStatsCheckbox" />
+				</td>
+				<td id="keepStatsQuestion">
+					Anonyme Auswertung (Wahlprognose) erlauben.
+					<br /> 
+				</td>
+			</tr>		
+		</table>
+	</div>	
+		
+	
+	<div id="test">
+	</div>
+
+</div>
+
+	<p id="extras">
+		<a href="system/imprint.html" target="_blank">Impressum</a> | Eine Aktion von <a href="http://www.opendatal.de">Opendatal &mdash; OpenData Initiative Wuppertal</a> | 
+	</p>
+
+    
+<script type="text/javascript">
+//<![CDATA[
+fnStart();
+
+var jetzt = new Date();
+var sekunden = jetzt.getTime(); 
+
+// System nicht aus dem Cache laden lassen, sondern immer mit neuem Parameter
+var div = document.getElementById("extras");
+div.innerHTML += " Talomat <a href='start.html?"+sekunden+"'>neu starten<\/a>?";
+
+//]]>
+</script>
+
+</body>
+</html>

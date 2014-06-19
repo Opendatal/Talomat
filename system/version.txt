@@ -1,0 +1,45 @@
+0.2.2.20120930
+
+- Lizenzhinweise aktualisiert (manchmal stand noch GPL 2)
+- optische und inhaltliche Verbesserungen in der detaillierten Auswertung (Mit Dank an Peter Lutz, Passau)
+\- Icons hinzugefuegt, z.B. für rot-gruen-blinde Personen 
+\- Position der Partei im Tooltip (vorher: "Parteiname: Begruendung", jetzt: "Parteiname: Stimme dafuer/dagegen: Begruendung")
+
+
+0.2.1.20091216
+
+- Bewertungssystem korrigiert. Enthaltung wurde als 0,5 gewertet, ist nun 0
+- Vor- und Zurueckspringen bei Fragen nun moeglich
+- Moeglichkeit ein anderes Trennzeichen als das Komma fuer die CSV zu definieren
+- Einstellungen der Partei/Positionslisten in der DEFINITION.JS von Arrays auf Strings umgestellt fuer einfachere Administration
+- Schnelltest verbessert zur einfacheren Fehlersuche
+- optische Verbesserungen
+\- Alternativtext in Ergebnisliste beschreibt auch persoenliche Position mit Worten statt 1/0/-1
+
+0.2.0.1.20091027
+
+- Bewertungssystem an den Wahlomat angepasst. Neutrale Positionen der Parteien werden nun als halber Punkt angerechnet.
+
+0.2.0.20091004
+
+- Moeglichkeit, einzelne Parteien in der Ergebnisliste einzeln auszuwaehlen
+- Schnelltest zum Pruefen der Konfiguration
+- optische Verbesserungen
+\- Rahmen mit Farbe der eigenen Position (z.B. rot) um Bild der Parteiposition (z.B: gruen) in detaillierter Auswertung
+\- Stylesheet-Datei verbessert (Schriftgroesse mit % statt pt)
+
+0.1.1.20090930
+
+- Variable fuer Internetadressen der Parteien hinzugefuegt
+- Austausch der Designvorlagen (CSS) moeglich
+- Moeglichkeit der anonymen "Wahlprogonose" nach Nutzereinwilligung
+- optische Verbesserungen
+\- Hervorhebeung von geraden Tabellenspalten in der Auswertung
+\- Verschiedene Farben in der Auswertung je nach Prozent der uebereinstimmung mit Partei
+
+0.1.0.20090929
+
+- erste Veroeffentlichung
+- Abfrage von Parteipositionen
+- kurze Auswertung
+- detaillierte Auswertung
